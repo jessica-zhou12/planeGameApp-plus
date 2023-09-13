@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/gradual_color_bg">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:ems="12"
+        android:hint="请输入你的账号"
+        android:inputType="text"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:ems="12"
+        android:hint="请输入你的密码"
+        android:inputType="text"
+        android:textColorHint="@android:color/white"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:onClick="Login"
+        android:text="登录"
+        android:textColor="#fff"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+</LinearLayout>

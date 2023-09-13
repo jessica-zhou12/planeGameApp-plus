@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity"
+    android:background="@drawable/gradual_color_bg">
+
+  <TextView
+      android:id="@+id/text_content"
+      android:layout_marginTop="300dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="25dp"
+      android:gravity="center"
+      android:textColor="#fff"
+      android:textStyle="bold"
+      ></TextView>
+
+  <ImageView
+      android:id="@+id/enter_game"
+      android:layout_width="45dp"
+      android:layout_height="45dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="32dp"
+      android:layout_marginRight="32dp"
+      android:layout_marginBottom="36dp"
+      android:background="@drawable/next_btn" />
+
+</RelativeLayout>

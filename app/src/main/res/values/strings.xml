@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">planeGameApp</string>
+    <string name="main_start">开始游戏</string>
+    <string name="shop_name">天天向上商店</string>
+    <string name="other">开始我的学习之旅</string>
+    <string name="category">我的学习记录</string>
+    <string name="category_back"> 返回</string>
+
+</resources>

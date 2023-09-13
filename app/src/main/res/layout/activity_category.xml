@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category"
+>
+    <TextView
+        android:id="@+id/cate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="11sp"
+        android:text="@string/category"
+        android:textColor="#6765ff"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cate"
+        android:layout_marginTop="15dp"
+        >
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:rowCount="4"
+            android:columnCount="6"
+            >
+
+
+            <TextView
+                android:id="@+id/replay"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#FF8B6E"
+                android:gravity="center"
+                android:text="编程语言:"
+                android:textColor="#455A64"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/replay_card"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="卡数量："
+                android:textColor="#90878A"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/attack"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#97BAFE"
+                android:gravity="center"
+                android:text="满绩点课程:"
+                android:textColor="#616161"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/attack_card"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="卡数量："
+                android:textColor="#90878A"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/classic"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#F9A7CF"
+                android:gravity="center"
+                android:text="sci技能点:"
+                android:textColor="#BF360C"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/free_card"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="卡数量："
+                android:textColor="#90878A"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+<!--            <TextView-->
+<!--                android:id="@+id/free_test"-->
+<!--                android:layout_width="170dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_row="3"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:background="#F7D766"-->
+<!--                android:gravity="center"-->
+<!--                android:text="金币:"-->
+<!--                android:textColor="#607D8B"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/coin_card"-->
+<!--                android:layout_width="170dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_row="3"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="数量："-->
+<!--                android:textColor="#90878A"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pack_back"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:background="@drawable/back2"
+        android:textColor="#6765ff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
